@@ -1,0 +1,74 @@
+#!/bin/bash
+
+echo " "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " "
+
+
+echo 		 	         _______ _________          _______  _______
+echo		  		        (  ____ \\__   __/^|\     /^|(  ____ \(  ____ )
+echo				        ^| (    \/   ) (   ^| )   ( ^|^| (    \/^| (    )^|
+echo	  			        ^| (__       ^| ^|   ^| (___) ^|^| (__    ^| (____)^|
+echo		    	    	        ^|  __)      ^| ^|   ^|  ___  ^|^|  __)   ^|     __)
+echo				        ^| (         ^| ^|   ^| (   ) ^|^| (      ^| (\ (
+echo				        ^| (____/\   ^| ^|   ^| )   ( ^|^| (____/\^| ) \ \__
+echo			    	    	(_______/   )_(   ^|/     \^|(_______/^|/   \__/
+
+
+
+
+
+
+
+echo " "
+echo " "
+echo                                                   Pre-Alpha
+echo                                                 Version 0.0.1
+echo " "
+echo " "
+echo " "
+echo " "
+echo                                              Eth3r by TKO_Cuber
+echo                                               GUI by NX_Master
+echo " "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " "
+read -n 1 -s -r -p "Press any key to continue"
+
+
+ 
+  clear
+	echo Please put your IPSW for the desired iOS version in the Files folder
+	echo " "
+	echo " "
+	pause
+	echo " "
+    ECHO We need to get some input from you...
+	echo " "
+	ECHO What are the firmware keys for your device and target iOS version?
+	ECHO You can find them here https://goo.gl/3vof6m
+	ECHO When you have them, then
+	read -n 1 -s -r -p "go ahead and press any key to continue."
+    echo ""
+	echo  "Enter Root Filesystem Key: "
+	read RootFS_Key
+	echo " "
+	echo Cool. Now just a bit more info and we can get going.
+	echo " "
+	echo "Enter Device Model (iPhone2,1 or iPad4,2 etc): "
+	read Model
+	echo "Enter desired iOS version (6.1.3, 5.1.1, etc.): "
+	read Version
+	echo "Enter the build number for desired iOS version (10B329, 12C235, etc.): "
+	read Build
+
+clear
+cd Files
